@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBA Financial Services</title>
+
+    <link rel="stylesheet" href="output.css">
+
+</head>
+
+<body class="flex w-screen flex-col relative card-scroll overflow-x-hidden">
+
+    <header id="navbar" class="flex fixed z-30 top-0 left-0 w-full bg-white shadow-md">
+        <div class="flex flex-col w-full ">
+            <div
+                class=" w-full max-w-7xl mx-auto px-2 grid grid-cols-4 lg:grid-cols-7 items-center justify-between h-full ">
+                <div class="flex w-fit divide gap-5 lg:divide-x items-center justify-start col-span-2 ">
+                    <div class="flex h-14 w-fit" onclick="window.location.href ='https://www.itm.edu/'">
+                        <img loading="lazy" class="flex w-fit h-full object-contain"
+                            src="https://www.itm.edu/institute-of-business-administration/assets/logo/ITM-B-School-Logo.webp"
+                            alt="ITM-B-School-Logo">
+                    </div>
+                    <div class="flex h-14 w-fit ">
+                        <img loading="lazy" class="hidden md:flex w-fit h-full object-contain"
+                            src="https://www.itm.edu/institute-of-business-administration/assets/logo/32%20YEARS%20OF%20EDU.webp"
+                            alt="ITM-B-School-Logo">
+                    </div>
+                </div>
+            </div>
+            <div class="hidden w-full overflow-hidden md:flex bg-black ">
+                <div class="newsletter-container">
+                    <div class="newsletter-item">
+                        <span class="font-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25"
+                                fill="none">
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    fill="#FBBF24" />
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    stroke="black" />
+                            </svg>&nbsp;
+                            Highest 21 LPA </span>
+                    </div>
+                    <div class="newsletter-item">
+                        <span class="font-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25"
+                                fill="none">
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    fill="#FBBF24" />
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    stroke="black" />
+                            </svg>&nbsp;
+                            Average 8.65 LPA</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <span class="font-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25"
+                                fill="none">
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    fill="#FBBF24" />
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    stroke="black" />
+                            </svg>&nbsp;
+                            650+ Recruiters</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <span class="font-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25"
+                                fill="none">
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    fill="#FBBF24" />
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    stroke="black" />
+                            </svg>&nbsp;
+                            Highest 21 LPA </span>
+                    </div>
+                    <div class="newsletter-item">
+                        <span class="font-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25"
+                                fill="none">
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    fill="#FBBF24" />
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    stroke="black" />
+                            </svg>&nbsp;
+                            Average 8.65 LPA</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <span class="font-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25"
+                                fill="none">
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    fill="#FBBF24" />
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    stroke="black" />
+                            </svg>&nbsp;
+                            650+ Recruiters</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <span class="font-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25"
+                                fill="none">
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    fill="#FBBF24" />
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    stroke="black" />
+                            </svg>&nbsp;
+                            Highest 21 LPA </span>
+                    </div>
+                    <div class="newsletter-item">
+                        <span class="font-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25"
+                                fill="none">
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    fill="#FBBF24" />
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    stroke="black" />
+                            </svg>&nbsp;
+                            Average 8.65 LPA</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <span class="font-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25"
+                                fill="none">
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    fill="#FBBF24" />
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    stroke="black" />
+                            </svg>&nbsp;
+                            650+ Recruiters</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <span class="font-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25"
+                                fill="none">
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    fill="#FBBF24" />
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    stroke="black" />
+                            </svg>&nbsp;
+                            Highest 21 LPA </span>
+                    </div>
+                    <div class="newsletter-item">
+                        <span class="font-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25"
+                                fill="none">
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    fill="#FBBF24" />
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    stroke="black" />
+                            </svg>&nbsp;
+                            Average 8.65 LPA</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <span class="font-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25"
+                                fill="none">
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    fill="#FBBF24" />
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    stroke="black" />
+                            </svg>&nbsp;
+                            650+ Recruiters</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <span class="font-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25"
+                                fill="none">
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    fill="#FBBF24" />
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    stroke="black" />
+                            </svg>&nbsp;
+                            Highest 21 LPA </span>
+                    </div>
+                    <div class="newsletter-item">
+                        <span class="font-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25"
+                                fill="none">
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    fill="#FBBF24" />
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    stroke="black" />
+                            </svg>&nbsp;
+                            Average 8.65 LPA</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <span class="font-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25"
+                                fill="none">
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    fill="#FBBF24" />
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    stroke="black" />
+                            </svg>&nbsp;
+                            650+ Recruiters</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <span class="font-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25"
+                                fill="none">
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    fill="#FBBF24" />
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    stroke="black" />
+                            </svg>&nbsp;
+                            Highest 21 LPA </span>
+                    </div>
+                    <div class="newsletter-item">
+                        <span class="font-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25"
+                                fill="none">
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    fill="#FBBF24" />
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    stroke="black" />
+                            </svg>&nbsp;
+                            Average 8.65 LPA</span>
+                    </div>
+                    <div class="newsletter-item">
+                        <span class="font-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25"
+                                fill="none">
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    fill="#FBBF24" />
+                                <path
+                                    d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                    stroke="black" />
+                            </svg>&nbsp;
+                            650+ Recruiters</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex w-full flex-col pt-14">
+
+        <div class="flex fixed z-20 bottom-0 w-full mx-auto bg-white enquire-btn">
+            <button onclick="openModal()"
+                class="shimmer-effect2 text-white bg-brand-red flex w-full py-3  text-center items-center justify-center font-normal text-lg ">
+                Enquire Now
+            </button>
+        </div>
+
+        <section id="Hero" class="flex w-full">
+            <div class="flex w-full h-screen lg:h-[730px] lg:max-h-[730px] mx-auto">
+                <div
+                    class="flex w-full h-full bg-bbafs-mob lg:bg-bbafs-web bg-[length:auto_60%] lg:bg-bbafs-desk-hero-img lg:bg-[length:auto_100%] bg-no-repeat bg-bottom lg:bg-[bottom_center]">
+                    <div
+                        class="grid grid-cols-1 lg:grid-cols-2  w-full max-w-7xl mx-auto px-5 py-5 lg:py-10 items-start justify-center">
+                        <div
+                            class="flex flex-col gap-5 w-full h-full md:items-center md:justify-center lg:items-start lg:justify-center">
+                            <div
+                                class="flex flex-col w-full md:w-fit gap-5 lg:gap-8 h-1/2 lg:h-fit items-start justify-start">
+                                <div class="flex w-full h-auto gap-3">
+                                    <div class="flex h-auto w-full">
+                                        <h1
+                                            class="flex flex-col h-fit font-sans text-3xl md:text-4xl lg:text-5xl+ xl:text-6xl font-bold lg:font-extrabold text-center lg:text-left  w-full">
+                                            <span class="text-brand-red rand-red text-3xl">Bachelors in Business
+                                                Administration</span>
+                                            <span>Financial Services</span>
+                                        </h1>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col w-full gap-2">
+                                    <p class="text-center lg:text-left max-w-lg ">
+                                        Pursue your Passion with ITM Vocational University
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="flex w-full flex-col items-center justify-center lg:items-start gap-3 h-1/2 lg:h-fit">
+                                <span
+                                    class="inline-flex items-center rounded-md bg-pink-50 px-5 w-fit py-2 text-base font-bold text-pink-700 ring-1 ring-inset ring-pink-700/10">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                        class="w-5 h-5 ">
+                                        <path fill-rule="evenodd"
+                                            d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
+                                            clip-rule="evenodd" />
+                                    </svg> &nbsp; Admission Open For 2023-24
+                                </span>
+                                <div
+                                    class="flex flex-col lg:flex-row w-full gap-3 items-center justify-center lg:items-start lg:justify-start">
+                                    <button onclick="openModal()"
+                                        class="shimmer-effect2 bg-brand-red text-white hidden lg:flex flex-nowrap px-8 py-2 font-normal w-fit  text-lg  rounded-md">Enquire
+                                        Now</button>
+                                    <button onclick="openModal1()"
+                                        class="shimmer-effect2 bg-brand-red text-white flex flex-nowrap px-8 py-2 font-normal w-fit  text-lg  rounded-md">Download
+                                        Brochure</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hidden lg:flex flex-col h-full w-full items-end justify-center">
+                            <div
+                                class="flex w-full h-fit max-w-xs mx-auto  items-center justify-end lg:mx-0 flex-col bg-brand-gray rounded-md">
+                                <div class="flex w-full py-2">
+                                    <h2 class="flex w-full text-center font-bold text-xl items-center justify-center">
+                                        Enquire Now</h2>
+                                </div>
+                                <div class="flex w-full h-[450px] items-center justify-center">
+                                    <!-- <iframe name="NPF"
+                                        src="https://www.itm.edu/NPF-Website-Form/vadodaranpfwidgets.html?utm_source=Web&utm_medium=Web&utm_campaign=ITM%20Website"
+                                        frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
+                                        class=""></iframe> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="flex lg:hidden w-full">
+            <div class="flex flex-col h-full w-full items-end justify-center">
+                <div class="flex flex-col w-full h-fit sm:max-w-xs mx-auto  items-center justify-end  rounded-md">
+                    <div class="flex w-full py-2">
+                        <h2 class="flex w-full text-center font-bold text-xl items-center justify-center">
+                            Enquire Now</h2>
+                    </div>
+                    <div class="flex w-full h-[450px] items-center justify-center">
+                        <!-- <iframe name="NPF"
+                            src="https://www.itm.edu/NPF-Website-Form/vadodaranpfwidgets.html?utm_source=Web&utm_medium=Web&utm_campaign=ITM%20Website"
+                            frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
+                            class=""></iframe> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="modal"
+            class="hidden w-full h-screen bg-black bg-opacity-50 top-0 right-0 left-0 z-30 items-center justify-center fixed">
+            <div class="flex max-w-7xl relative w-full py-5 md:py-10  mx-auto my-auto">
+
+                <div
+                    class="flex w-full relative h-fit max-w-sm mx-auto  items-center justify-center flex-col bg-white rounded-md">
+                    <div class="flex w-full py-3">
+                        <h2 class="flex w-full text-center font-bold text-xl items-center justify-center">
+                            Enquire Now</h2>
+                    </div>
+                    <div class="flex w-fit absolute  top-0  right-0">
+                        <button onclick="closeModal()"
+                            class="px-2 py-2 rounded-md bg-white flex border border-brand-red">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-6 h-6 text-brand-red ">
+                                <path fill-rule="evenodd"
+                                    d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="flex w-full h-[500px] py-3 items-center justify-center">
+                        <div class="npf_wgts w-full" data-height="500px" data-w="fce92580c010e5c9863c790bd21db6be">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="modal1"
+            class="hidden w-full h-screen bg-black bg-opacity-50 top-0 right-0 left-0 z-30 items-center justify-center fixed">
+            <div class="flex max-w-7xl relative w-full py-5 md:py-10  mx-auto my-auto">
+                <div
+                    class="flex w-full relative h-fit max-w-sm mx-auto  items-center justify-center flex-col bg-white rounded-md">
+                    <div class="flex w-full py-3">
+                        <h2 class="flex w-full text-center font-bold text-xl items-center justify-center">
+                            Enter details to get brochure</h2>
+                    </div>
+                    <div class="flex w-fit absolute  top-0  right-0">
+                        <button onclick="closeModal1()"
+                            class="px-2 py-2 rounded-md bg-white flex border border-brand-red">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-6 h-6 text-brand-red ">
+                                <path fill-rule="evenodd"
+                                    d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="flex w-full h-[500px] py-3 items-center justify-center">
+                        <div class="npf_wgts w-full" data-height="500px" data-w="fce92580c010e5c9863c790bd21db6be">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="w-full overflow-hidden flex bg-black ">
+            <div class="newsletter-container">
+                <div class="newsletter-item">
+                    <span class="font-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                fill="#FBBF24" />
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                stroke="black" />
+                        </svg>&nbsp;
+                        Highest 21 LPA </span>
+                </div>
+                <div class="newsletter-item">
+                    <span class="font-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                fill="#FBBF24" />
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                stroke="black" />
+                        </svg>&nbsp;
+                        Average 8.65 LPA</span>
+                </div>
+                <div class="newsletter-item">
+                    <span class="font-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                fill="#FBBF24" />
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                stroke="black" />
+                        </svg>&nbsp;
+                        650+ Recruiters</span>
+                </div>
+                <div class="newsletter-item">
+                    <span class="font-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                fill="#FBBF24" />
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                stroke="black" />
+                        </svg>&nbsp;
+                        Highest 21 LPA </span>
+                </div>
+                <div class="newsletter-item">
+                    <span class="font-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                fill="#FBBF24" />
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                stroke="black" />
+                        </svg>&nbsp;
+                        Average 8.65 LPA</span>
+                </div>
+                <div class="newsletter-item">
+                    <span class="font-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                fill="#FBBF24" />
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                stroke="black" />
+                        </svg>&nbsp;
+                        650+ Recruiters</span>
+                </div>
+                <div class="newsletter-item">
+                    <span class="font-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                fill="#FBBF24" />
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                stroke="black" />
+                        </svg>&nbsp;
+                        Highest 21 LPA </span>
+                </div>
+                <div class="newsletter-item">
+                    <span class="font-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                fill="#FBBF24" />
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                stroke="black" />
+                        </svg>&nbsp;
+                        Average 8.65 LPA</span>
+                </div>
+                <div class="newsletter-item">
+                    <span class="font-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                fill="#FBBF24" />
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                stroke="black" />
+                        </svg>&nbsp;
+                        650+ Recruiters</span>
+                </div>
+                <div class="newsletter-item">
+                    <span class="font-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                fill="#FBBF24" />
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                stroke="black" />
+                        </svg>&nbsp;
+                        Highest 21 LPA </span>
+                </div>
+                <div class="newsletter-item">
+                    <span class="font-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                fill="#FBBF24" />
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                stroke="black" />
+                        </svg>&nbsp;
+                        Average 8.65 LPA</span>
+                </div>
+                <div class="newsletter-item">
+                    <span class="font-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                fill="#FBBF24" />
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                stroke="black" />
+                        </svg>&nbsp;
+                        650+ Recruiters</span>
+                </div>
+                <div class="newsletter-item">
+                    <span class="font-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                fill="#FBBF24" />
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                stroke="black" />
+                        </svg>&nbsp;
+                        Highest 21 LPA </span>
+                </div>
+                <div class="newsletter-item">
+                    <span class="font-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                fill="#FBBF24" />
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                stroke="black" />
+                        </svg>&nbsp;
+                        Average 8.65 LPA</span>
+                </div>
+                <div class="newsletter-item">
+                    <span class="font-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                fill="#FBBF24" />
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                stroke="black" />
+                        </svg>&nbsp;
+                        650+ Recruiters</span>
+                </div>
+                <div class="newsletter-item">
+                    <span class="font-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                fill="#FBBF24" />
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                stroke="black" />
+                        </svg>&nbsp;
+                        Highest 21 LPA </span>
+                </div>
+                <div class="newsletter-item">
+                    <span class="font-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                fill="#FBBF24" />
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                stroke="black" />
+                        </svg>&nbsp;
+                        Average 8.65 LPA</span>
+                </div>
+                <div class="newsletter-item">
+                    <span class="font-xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 25" fill="none">
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                fill="#FBBF24" />
+                            <path
+                                d="M25 9.55915H15.4354L12.5 0L9.56458 9.55915H0L7.82344 15.4408L4.77656 25L12.5 19.0759L20.2234 25L17.1708 15.4408L25 9.55915Z"
+                                stroke="black" />
+                        </svg>&nbsp;
+                        650+ Recruiters</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="flex w-full px-5 py-5">
+            <div class="grid grid-cols-4 lg:grid-cols-7 w-full gap-3 max-w-7xl mx-auto">
+                <div class="flex w-full col-span-3 lg:col-span-2 items-center justify-between">
+                    <img loading="lazy" class="flex h-20 w-full object-contain " src="assets/img/aishe_logo.webp"
+                        alt="image 105">
+                </div>
+                <div class="flex w-full items-center justify-between">
+                    <img loading="lazy" class="flex h-20 w-full object-contain " src="assets/img/Dimond Rank.webp"
+                        alt="image 103">
+                </div>
+                <div class="flex w-full items-center justify-between">
+                    <img loading="lazy" class="flex h-20 w-full object-contain " src="assets/img/12th-Rank.webp"
+                        alt="image 103">
+                </div>
+                <div class="flex w-full items-center justify-between">
+                    <img loading="lazy" class="flex h-20 w-full object-contain " src="assets/img/37th-Rank.webp"
+                        alt="image 103">
+                </div>
+                <div class="flex w-full items-center justify-between">
+                    <img loading="lazy" class="flex h-20 w-full object-contain " src="assets/img/8th-Rank.webp"
+                        alt="image 103">
+                </div>
+                <div class="flex w-full items-center justify-between">
+                    <img loading="lazy" class="flex h-20 w-full object-contain " src="assets/img/ugc.webp"
+                        alt="image 104">
+                </div>
+            </div>
+        </div>
+
+        <hr class="flex w-full max-w-7xl mx-auto">
+
+        <section id="About-ITM" class="flex w-full bg-gray-50">
+            <div class="flex flex-col w-full px-5 py-8 md:py-10 lg:py-12  gap-5 lg:gap-7 xl:gap-10 max-w-7xl mx-auto">
+                <div class="flex  w-full items-center justify-between">
+                    <div class="flex flex-col w-fit  md:items-center md:justify-center md:mx-auto">
+                        <h2
+                            class="flex w-full items-center justify-left md:justify-center underline decoration-brand-red decoration-4 underline-offset-4 text-brand-red font-bold text-xl md:text-2xl lg:text-3xl  shimmer-effect2">
+                            About ITM Vocational University&nbsp; <svg xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" fill="currentColor" class="w-10 h-10 text-yellow-400 ">
+                                <path fill-rule="evenodd"
+                                    d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </h2>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full">
+                    <div class="flex w-full flex-col items-center justify-center md:order-2">
+                        <div
+                            class="flex flex-col gap-3 text-sm md:text-base md:items-center md:justify-center max-w-lg mx-auto w-full h-auto">
+                            <p class="flex w-full text-justify">
+                                The ITM Vocational University Was Founded In 2014 To Bring Vocational Education Into The
+                                Mainstream. The ITM has A Legacy Of 31 Years; It Has Easily Tapped Into The Rich
+                                Educational Culture & Experience.
+                            </p>
+                            <p class="flex w-full text-justify">
+                                With Project-Based Active Learning And Job-Oriented Training, ITM Vocational University
+                                Integrates General Education And Vocational Education In Higher Education.
+                            </p>
+                            <p class="flex w-full text-justify">
+                                Programs Designed In Collaboration With Industry Experts And Taught By Faculty With
+                                Extensive Industry Experience Lay The Foundation For A Long And Successful Career.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex w-full md:order-1">
+                        <div class="flex w-full h-full max-w-lg mx-auto rounded-md relative after:flex after:absolute after:h-full after:w-full after:rounded-lg after:bg-white after:contain-content after:-right-5 after:top-5 after:z-10"
+                            id="image-container">
+                            <img id="changeImg" src="assets/banner/about-banner1.webp" alt=""
+                                class="flex rounded-md h-full w-full object-contain z-20" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="flex w-full max-w-7xl mx-auto">
+
+        <section id="About-program" class="flex w-full ">
+            <div class="flex flex-col w-full px-5 py-8 md:py-10 lg:py-12  gap-5 lg:gap-7 xl:gap-10 max-w-7xl mx-auto">
+                <div class="flex  w-full items-center justify-between">
+                    <div class="flex flex-col w-fit  md:items-center md:justify-center md:mx-auto">
+                        <h2
+                            class="flex w-full items-center justify-left md:justify-center underline decoration-brand-red decoration-4 underline-offset-4 text-brand-red font-bold text-xl md:text-2xl lg:text-3xl  shimmer-effect2">
+                            Bachelor of Business Administration in Financial Services&nbsp; <svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-10 h-10 text-yellow-400 ">
+                                <path fill-rule="evenodd"
+                                    d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </h2>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full">
+                    <div class="flex w-full flex-col items-center justify-center">
+                        <div
+                            class="flex flex-col gap-3 text-sm md:text-base md:items-center md:justify-center max-w-lg mx-auto w-full h-auto">
+                            <p class="flex w-full text-justify">
+                                BBA in Financial Services is an undergraduate programme designed to prepare students for
+                                a professional qualification in financial services and provides a solid base in the
+                                Financial Services domain. The course will also inculcate emerging technology used in
+                                financial services to better prepare students to be competent industry professionals.
+                            </p>
+                            <div class="flex w-full  h-auto py-3">
+                                <ul class="flex w-full flex-col max-w-lg mx-auto">
+                                    <li class="list-disc ml-3 my-1 text-sm md:text-base ">Industry-Aligned
+                                        Projects/Research
+                                    </li>
+                                    <li class="list-disc ml-3 my-1 text-sm md:text-base ">Immersive Internship Programs
+                                    </li>
+                                    <li class="list-disc ml-3 my-1 text-sm md:text-base ">Exclusive Masterclass
+                                        Engagements
+                                    </li>
+                                    <li class="list-disc ml-3 my-1 text-sm md:text-base ">Strong Industry-Academia
+                                        Interface
+                                    </li>
+                                    <li class="list-disc ml-3 my-1 text-sm md:text-base ">Entrepreneurship Cell
+                                    </li>
+                                    <li class="list-disc ml-3 my-1 text-sm md:text-base ">Placement Guarantee
+                                    </li>
+                                    <li class="list-disc ml-3 my-1 text-sm md:text-base ">Global Immersion Opportunities
+                                        (
+                                        Dubai/Singapore)
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex w-full ">
+                        <div class="flex flex-col lg:w-full h-auto">
+                            <div class="flex w-full h-full max-w-lg mx-auto rounded-md relative after:flex after:absolute after:h-full after:w-full after:rounded-lg after:bg-gray-100 after:contain-content after:-right-5 after:top-5 after:z-10"
+                                id="image-container">
+                                <img id="changeImg" src="assets/banner/placement-banner1.webp" alt=""
+                                    class="flex rounded-md h-full w-full object-contain z-20" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex w-full overflow-x-scroll md:overflow-x-hidden card-scroll py-3 ">
+                    <div
+                        class="flex w-auto justify-start md:grid md:grid-cols-2 lg:grid-cols-4 md:w-fit md:mx-auto gap-4 text-justify">
+
+                        <div
+                            class="flex flex-col w-72 item-center p-5 justify-center gap-5 border border-gray-300 rounded-md hover:shadow-md transation-all">
+                            <div class="flex bg-brand-red rounded-md mx-auto h-8 w-8 p-2">
+                                <img src="assets/uni-icons/duration1.webp" alt="" />
+                            </div>
+                            <div class="flex flex-col w-full items-center justify-center gap-3">
+                                <strong class="text-lg">Duration</strong>
+                                <span class="text-sm text-gray-500">3 Years</span>
+                            </div>
+                        </div>
+                        <div
+                            class="flex flex-col w-72 item-center p-5 justify-center gap-5 border border-gray-300 rounded-md hover:shadow-md transation-all">
+                            <div class="flex bg-brand-red rounded-md mx-auto h-8 w-8 p-2">
+                                <img src="assets/uni-icons/admission.webp" alt="" />
+                            </div>
+                            <div class="flex flex-col w-full items-center justify-center gap-3">
+                                <strong class="text-lg">Eligibility</strong>
+                                <span class="text-sm text-gray-500">10+2</span>
+                            </div>
+                        </div>
+                        <div
+                            class="flex flex-col w-72 item-center p-5 justify-center gap-5 border border-gray-300 rounded-md hover:shadow-md transation-all">
+                            <div class="flex bg-brand-red rounded-md mx-auto h-8 w-8 p-2">
+                                <img src="assets/uni-icons/holastic-p2.webp" alt="" />
+                            </div>
+                            <div class="flex flex-col w-full items-center justify-center gap-3">
+                                <strong class="text-lg">Format</strong>
+                                <span class="text-sm text-gray-500">Innovative Evaluation</span>
+                            </div>
+                        </div>
+                        <div
+                            class="flex flex-col w-72 item-center p-5 justify-center gap-5 border border-gray-300 rounded-md hover:shadow-md transation-all">
+                            <div class="flex bg-brand-red rounded-md mx-auto h-8 w-8 p-2">
+                                <img src="assets/uni-icons/eligible.webp" alt="" />
+                            </div>
+                            <div class="flex flex-col w-full items-center justify-center gap-3">
+                                <strong class="text-lg">Commencement Date</strong>
+                                <span class="text-sm text-gray-500">August 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <hr class="flex w-full max-w-7xl mx-auto">
+
+        <section id="Why-BBA-FS" class="flex w-full bg-gray-50">
+            <div class="flex flex-col w-full px-5 py-8 md:py-10  lg:py-12  gap-5 lg:gap-7 xl:gap-10 max-w-7xl mx-auto">
+                <div class="flex  w-full items-center justify-between">
+                    <div class="flex flex-col w-fit  sm:items-center sm:justify-center md:mx-auto">
+                        <h2
+                            class="flex text-brand-red flex-wrap w-full items-center justify-left sm:justify-center underline decoration-brand-red decoration-4 underline-offset-4 font-bold text-xl sm  :text-2xl lg:text-3xl  shimmer-effect2">
+                            Why Choose BBA Financial Services?
+                        </h2>
+
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full">
+                    <div class="flex gap-3 w-full items-center justify-center ">
+                        <div class="flex w-full h-full max-w-lg mx-auto rounded-md relative after:flex after:absolute after:h-full after:w-full after:rounded-lg after:bg-white after:contain-content after:-right-5 after:top-5 after:z-10"
+                            id="image-container">
+                            <img id="changeImg" src="assets/banner/about1.webp" alt=""
+                                class="flex rounded-md h-full w-full object-contain z-20" />
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-3 w-full  items-center justify-center">
+                        <div
+                            class="flex flex-col gap-3 text-sm md:text-base md:items-center md:justify-center max-w-lg mx-auto w-full h-auto">
+                            <p class="flex w-full text-justify ">
+                                A Bachelor of Business Administration(BBA)in Financial Services program is designed to
+                                provide students with a comprehensive understanding of the financial industry and its
+                                various aspects. Choosing to pursue a BBA in Financial Services at ITM Skills University
+                                can be a beneficial decision for several reasons:
+                            </p>
+                            <div class="flex my-2 w-full">
+                                <ul class="flex flex-col text-base w-full pl-5 gap-1 md:gap-2">
+                                    <li class="list-disc">
+                                        Reputed Institution with 32 Years old legacy
+                                    </li>
+                                    <li class="list-disc">
+                                        Practical and experiential learning
+                                    </li>
+                                    <li class="list-disc">
+                                        Comprehensive & Contemporary curriculum
+                                    </li>
+                                    <li class="list-disc">
+                                        Holistic Career Development Support
+                                    </li>
+                                    <li class="list-disc">
+                                        Mentoring
+                                    </li>
+                                    <li class="list-disc">
+                                        Clubs & Forums
+                                    </li>
+                                    <li class="list-disc">
+                                        Practical Training in Business Simulation Lab.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <hr class="flex w-full max-w-7xl mx-auto">
+
+        <section id="Career" class="flex w-full">
+            <div class="flex flex-col w-full px-5 py-8 md:py-10  lg:py-12  gap-5 lg:gap-7 xl:gap-10 max-w-7xl mx-auto">
+                <div class="flex  w-full items-center justify-between">
+                    <div class="flex flex-col w-fit  sm:items-center sm:justify-center md:mx-auto">
+                        <h2
+                            class="flex text-brand-red flex-wrap w-full items-center justify-left sm:justify-center underline decoration-brand-red decoration-4 underline-offset-4 font-bold text-xl sm  :text-2xl lg:text-3xl  shimmer-effect2">
+                            Practical Exposure & Career Development
+                        </h2>
+
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full">
+                    <div class="flex gap-3 w-full items-center justify-center md:order-2">
+
+                        <div class="flex w-full h-full max-w-lg mx-auto rounded-md relative after:flex after:absolute after:h-full after:w-full after:rounded-lg after:bg-gray-100 after:contain-content after:-right-5 after:top-5 after:z-10"
+                            id="image-container">
+                            <img id="changeImg" src="assets/banner/placement-banner3.webp" alt=""
+                                class="flex rounded-md h-full w-full object-contain z-20" />
+                        </div>
+                    </div>
+                    <div class="flex w-full items-center justify-center md:order-1">
+                        <div class="flex flex-col gap-4 max-w-lg mx-auto w-full">
+                            <div class="flex flex-col gap-1 text-sm md:text-base w-full h-auto">
+                                <strong class="text-lg text-brand-red">Real-World Experience:</strong>
+                                <p class="flex w-full text-justify ">
+                                    Internship opportunities with leading financial institutions and collaborations with
+                                    industry experts for workshops and seminars.
+                                </p>
+                            </div>
+                            <div class="flex flex-col gap-1 text-sm md:text-base w-full h-auto">
+                                <strong class="text-lg text-brand-red">Career Services:</strong>
+                                <p class="flex w-full text-justify ">
+                                    Career counseling and networking opportunities through alumni events and industry
+                                    partnerships to align academic pursuits with career aspirations. We focus on getting
+                                    the
+                                    best brands and high-demand job profiles, giving our students a world of interesting
+                                    opportunities in a wide range of industries.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="flex w-full max-w-7xl mx-auto">
+
+        <section id="Curriculum" class="flex w-full bg-gray-50">
+            <div class="flex flex-col w-full px-5 py-8 md:py-10  lg:py-12  gap-5 lg:gap-7 xl:gap-10 max-w-7xl mx-auto">
+                <div class="flex  w-full items-center justify-between">
+                    <div class="flex flex-col w-fit  sm:items-center sm:justify-center md:mx-auto">
+                        <h2
+                            class="flex text-brand-red flex-wrap w-full items-center justify-left sm:justify-center underline decoration-brand-red decoration-4 underline-offset-4 font-bold text-xl sm  :text-2xl lg:text-3xl  shimmer-effect2">
+                            Curriculum Overview
+                        </h2>
+
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full">
+                    <div class="flex gap-3 w-full items-center justify-center ">
+
+                        <div class="flex w-full h-full max-w-lg mx-auto rounded-md relative after:flex after:absolute after:h-full after:w-full after:rounded-lg after:bg-white after:contain-content after:-right-5 after:top-5 after:z-10"
+                            id="image-container">
+                            <img id="changeImg" src="assets/banner/campus-banner1.webp" alt=""
+                                class="flex rounded-md h-full w-full object-contain z-20" />
+                        </div>
+                    </div>
+                    <div class="flex w-full items-center justify-center ">
+                        <div class="flex flex-col gap-4 max-w-lg mx-auto w-full">
+                            <div class="flex flex-col gap-1 text-sm md:text-base w-full h-auto">
+                                <strong class="text-lg text-brand-red">Core Objectives:</strong>
+                                <p class="flex w-full text-justify ">
+                                    To provide a solid foundation in business administration with a
+                                    focus on the BFSI Sector and to develop essential knowledge and skills for sales and
+                                    operations roles within BFSI.
+                                </p>
+                            </div>
+                            <div class="flex flex-col gap-1 text-sm md:text-base w-full h-auto">
+                                <strong class="text-lg text-brand-red">Curricular Breadth: </strong>
+                                <p class="flex w-full text-justify ">
+                                    General courses in Management, Marketing, Economics, Laws, Entrepreneurship
+                                    contextualized for BFSI, alongside specialized courses in Banking, Insurance, NBFCs,
+                                    Mutual Funds, Financial Mathematics, Investment & Securities Markets.
+                                </p>
+                            </div>
+                            <div class="flex flex-col gap-1 text-sm md:text-base w-full h-auto">
+                                <strong class="text-lg text-brand-red">Professional Development: </strong>
+                                <p class="flex w-full text-justify ">
+                                    Courses aimed at Personality Development, English Language proficiency, and Sales
+                                    Management.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="flex w-full max-w-7xl mx-auto">
+
+        <section id="Highlights" class="flex w-full">
+            <div class="flex flex-col w-full px-5 py-8 md:py-10  lg:py-12  gap-5 lg:gap-7 xl:gap-10 max-w-7xl mx-auto">
+                <div class="flex  w-full items-center justify-between">
+                    <div class="flex flex-col w-fit  sm:items-center sm:justify-center md:mx-auto">
+                        <h2
+                            class="flex text-brand-red flex-wrap w-full items-center justify-left sm:justify-center underline decoration-brand-red decoration-4 underline-offset-4 font-bold text-xl sm  :text-2xl lg:text-3xl  shimmer-effect2">
+                            Program Highlights
+                        </h2>
+
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full">
+                    <div class="flex gap-3 w-full items-center justify-center md:order-2">
+
+                        <div class="flex w-full h-full max-w-lg mx-auto rounded-md relative after:flex after:absolute after:h-full after:w-full after:rounded-lg after:bg-gray-100 after:contain-content after:-right-5 after:top-5 after:z-10"
+                            id="image-container">
+                            <img id="changeImg" src="assets/banner/digital-marketing-banner.webp" alt=""
+                                class="flex rounded-md h-full w-full object-contain z-20" />
+                        </div>
+                    </div>
+                    <div class="flex w-full items-center justify-center md:order-1">
+                        <div class="flex flex-col gap-4 max-w-lg mx-auto w-full">
+                            <div class="flex flex-col gap-1 text-sm md:text-base w-full h-auto">
+                                <strong class="text-lg text-brand-red">Duration & Structure:</strong>
+                                <p class="flex w-full text-justify ">
+                                    A comprehensive 3-year journey across 6 semesters.
+                                </p>
+                            </div>
+                            <div class="flex flex-col gap-1 text-sm md:text-base w-full h-auto">
+                                <strong class="text-lg text-brand-red">Internships: </strong>
+                                <p class="flex w-full text-justify ">
+                                    Two strategic internships for real-world experience; a 2-month stint post-Semester 4
+                                    and an extensive 4-month engagement during Semester 6.
+                                </p>
+                            </div>
+                            <div class="flex flex-col gap-1 text-sm md:text-base w-full h-auto">
+                                <strong class="text-lg text-brand-red">Certifications: </strong>
+                                <p class="flex w-full text-justify ">
+                                    Esteemed certifications integrated within the curriculum, including Licentiate in
+                                    Life and General Insurance, Diploma in Banking & Finance, and certifications from
+                                    NISM.
+                                </p>
+                            </div>
+                            <div class="flex flex-col gap-1 text-sm md:text-base w-full h-auto">
+                                <strong class="text-lg text-brand-red">Placements: </strong>
+                                <p class="flex w-full text-justify ">
+                                    With our connections in the BFSI sector, we can ensure placements for candidates who
+                                    complete the 3 - year program, these will be largely frontline sales profiles in and
+                                    around the state of Gujarat.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="flex w-full max-w-7xl mx-auto">
+
+        <section id="Admission" class="flex w-full bg-gray-50">
+            <div class="flex flex-col w-full px-5 py-8 md:py-10  lg:py-12  gap-5 lg:gap-7 xl:gap-10 max-w-7xl mx-auto">
+                <div class="flex  w-full items-center justify-between">
+                    <div class="flex flex-col w-fit  sm:items-center sm:justify-center md:mx-auto">
+                        <h2
+                            class="flex text-brand-red flex-wrap w-full items-center justify-left sm:justify-center underline decoration-brand-red decoration-4 underline-offset-4 font-bold text-xl sm  :text-2xl lg:text-3xl  shimmer-effect2">
+                            Admission Criteria & Infrastructure
+                        </h2>
+
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full">
+                    <div class="flex gap-3 w-full items-center justify-center">
+
+                        <div class="flex w-full h-full max-w-lg mx-auto rounded-md relative after:flex after:absolute after:h-full after:w-full after:rounded-lg after:bg-white after:contain-content after:-right-5 after:top-5 after:z-10"
+                            id="image-container">
+                            <img id="changeImg" src="assets/banner/program-banner1.webp" alt=""
+                                class="flex rounded-md h-full w-full object-contain z-20" />
+                        </div>
+                    </div>
+                    <div class="flex w-full items-center justify-center">
+                        <div class="flex flex-col gap-4 max-w-lg mx-auto w-full">
+                            <div class="flex flex-col gap-1 text-sm md:text-base w-full h-auto">
+                                <strong class="text-lg text-brand-red">Selective Admission:</strong>
+                                <p class="flex w-full text-justify ">
+                                    A rigorous process to select candidates with strong academic records and a passion
+                                    for finance, considering extracurricular activities and leadership experiences.
+                                </p>
+                            </div>
+                            <div class="flex flex-col gap-1 text-sm md:text-base w-full h-auto">
+                                <strong class="text-lg text-brand-red">Robust Infrastructure: </strong>
+                                <p class="flex w-full text-justify ">
+                                    Advanced learning environments and comprehensive resources to support in-depth
+                                    research and analysis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="flex w-full max-w-7xl mx-auto">
+
+        <section id="Faculty&Resouces" class="flex w-full">
+            <div class="flex flex-col w-full px-5 py-8 md:py-10  lg:py-12  gap-5 lg:gap-7 xl:gap-10 max-w-7xl mx-auto">
+                <div class="flex  w-full items-center justify-between">
+                    <div class="flex flex-col w-fit  sm:items-center sm:justify-center md:mx-auto">
+                        <h2
+                            class="flex text-brand-red flex-wrap w-full items-center justify-left sm:justify-center underline decoration-brand-red decoration-4 underline-offset-4 font-bold text-xl sm  :text-2xl lg:text-3xl  shimmer-effect2">
+                            Faculty & Resources
+                        </h2>
+
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5 w-full">
+                    <div class="flex gap-3 w-full items-center justify-center md:order-2">
+
+                        <div class="flex w-full h-full max-w-lg mx-auto rounded-md relative after:flex after:absolute after:h-full after:w-full after:rounded-lg after:bg-gray-100 after:contain-content after:-right-5 after:top-5 after:z-10"
+                            id="image-container">
+                            <img id="changeImg" src="assets/banner/marketing-management-banner.webp" alt=""
+                                class="flex rounded-md h-full w-full object-contain z-20" />
+                        </div>
+                    </div>
+                    <div class="flex w-full items-center justify-center md:order-1">
+                        <div class="flex flex-col gap-4 max-w-lg mx-auto w-full">
+                            <div class="flex flex-col gap-1 text-sm md:text-base w-full h-auto">
+                                <strong class="text-lg text-brand-red">Expert Instructors:</strong>
+                                <p class="flex w-full text-justify ">
+                                    A dedicated team of faculty members with a rich blend of academic knowledge and
+                                    industry experience.
+                                </p>
+                            </div>
+                            <div class="flex flex-col gap-1 text-sm md:text-base w-full h-auto">
+                                <strong class="text-lg text-brand-red">State-of-the-Art Facilities: </strong>
+                                <p class="flex w-full text-justify ">
+                                    Modern classrooms equipped with interactive technology and access to extensive
+                                    research resources including a library, online databases, and financial software.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="flex flex-col w-full mb-10 ">
+        <div class="flex w-full bg-gray-500 py-5">
+            <p class="flex w-full items-center justify-center text-center text-white text-base">
+                © 2024 ITM University. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
